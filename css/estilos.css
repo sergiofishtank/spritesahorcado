@@ -1,0 +1,31 @@
+.inputLetra{
+	background-color: #000000;
+    height: 25px;
+    width: 50px;    
+    margin: 1px;
+    display: inline-block;
+    font-size: 50px;
+}
+
+#prueba{
+	height: 180px;
+ 	width: 134px;
+	background: url("../assets/ahorcadosprite.png");
+	background-position-x: 582px; 
+}
+
+#intentos{
+	color: #ffffff;
+	background-color: #006996;
+	width: 173px;
+	text-align: center;
+}
+
+.campoJugador{
+	visibility:hidden;
+}
+
+.campoSecreta{
+	visibility: visible;
+}
+

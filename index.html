@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ahorcado</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link href="js/jquery-ui-1.12.1.custom/jquery-ui.css" rel="stylesheet">
+</head>
+<body>
+	<div>
+		<h1>JUEGO DEL AHORCADO</h1>
+		<h3 class="campoSecreta">Ingrese la palabra secreta (sólo letras minúsculas)</h3>
+		<input class="campoSecreta" type="password" id="txtSecreta">
+		<input class="campoSecreta" type="submit" id="bttSecreta">
+
+	</div>
+
+	<div id="tablero">
+		<!--espacio del sprite-->
+		<p id="prueba">			
+		</p>
+		<!--espacio de letras ocultas-->
+	  	<div id="palabra">	  	
+	  	</div>
+	  	<!--inputs del jugador-->
+	 	<div>
+	  		</br>
+	  		<input class="campoJugador" type="text" id="txtJugador" value="">
+	  		<input class="campoJugador" type="submit" value="Probar" id="bttJugador">
+	  		<p id="intentos"></p>
+	  	</div>
+	</div>
+
+<div id="datepicker"></div>
+	
+	
+	<script type="text/javascript" src="js/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.12.1.custom/external/jquery/jquery.js"></script>
+	<script src="js/sprite.js"></script>
+</body>
+</html>
+
+<!--by Sergio Suarez sergio.suaf@hotmail.com-->
